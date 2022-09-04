@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 480px){
+    header > h1{
+        font-size: 1.4em;
+
+    }
+
+    header > p{
+        font-size: 1.2em;
+        color: red;
+
+    }
+
+    main > section#container > div#screen{
+        font-size: 0.8em;
+
+    }
+
+    #button > input[type=button]{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    header > h1{
+        font-size: 1.6em;
+
+    }
+
+    header > p{
+        font-size: 1.4em;
+        color: red;
+
+    }
+    main > section#container > div#screen{
+        font-size: 1em;
+
+    }
+
+    #button > input[type=button]{
+        font-size: 1.2em;
+    }
+    
+}
